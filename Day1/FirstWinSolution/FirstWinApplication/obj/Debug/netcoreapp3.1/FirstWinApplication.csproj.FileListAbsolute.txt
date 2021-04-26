@@ -1,0 +1,16 @@
+D:\Data\d drive\Corp\RPS\CTS\CDE21ID001\Day1\FirstWinSolution\FirstWinApplication\bin\Debug\netcoreapp3.1\FirstWinApplication.exe
+D:\Data\d drive\Corp\RPS\CTS\CDE21ID001\Day1\FirstWinSolution\FirstWinApplication\bin\Debug\netcoreapp3.1\FirstWinApplication.deps.json
+D:\Data\d drive\Corp\RPS\CTS\CDE21ID001\Day1\FirstWinSolution\FirstWinApplication\bin\Debug\netcoreapp3.1\FirstWinApplication.runtimeconfig.json
+D:\Data\d drive\Corp\RPS\CTS\CDE21ID001\Day1\FirstWinSolution\FirstWinApplication\bin\Debug\netcoreapp3.1\FirstWinApplication.runtimeconfig.dev.json
+D:\Data\d drive\Corp\RPS\CTS\CDE21ID001\Day1\FirstWinSolution\FirstWinApplication\bin\Debug\netcoreapp3.1\FirstWinApplication.dll
+D:\Data\d drive\Corp\RPS\CTS\CDE21ID001\Day1\FirstWinSolution\FirstWinApplication\bin\Debug\netcoreapp3.1\FirstWinApplication.pdb
+D:\Data\d drive\Corp\RPS\CTS\CDE21ID001\Day1\FirstWinSolution\FirstWinApplication\obj\Debug\netcoreapp3.1\FirstWinApplication.csprojAssemblyReference.cache
+D:\Data\d drive\Corp\RPS\CTS\CDE21ID001\Day1\FirstWinSolution\FirstWinApplication\obj\Debug\netcoreapp3.1\FirstWinApplication.Form1.resources
+D:\Data\d drive\Corp\RPS\CTS\CDE21ID001\Day1\FirstWinSolution\FirstWinApplication\obj\Debug\netcoreapp3.1\FirstWinApplication.csproj.GenerateResource.cache
+D:\Data\d drive\Corp\RPS\CTS\CDE21ID001\Day1\FirstWinSolution\FirstWinApplication\obj\Debug\netcoreapp3.1\FirstWinApplication.AssemblyInfoInputs.cache
+D:\Data\d drive\Corp\RPS\CTS\CDE21ID001\Day1\FirstWinSolution\FirstWinApplication\obj\Debug\netcoreapp3.1\FirstWinApplication.AssemblyInfo.cs
+D:\Data\d drive\Corp\RPS\CTS\CDE21ID001\Day1\FirstWinSolution\FirstWinApplication\obj\Debug\netcoreapp3.1\FirstWinApplication.csproj.CoreCompileInputs.cache
+D:\Data\d drive\Corp\RPS\CTS\CDE21ID001\Day1\FirstWinSolution\FirstWinApplication\obj\Debug\netcoreapp3.1\FirstWinApplication.dll
+D:\Data\d drive\Corp\RPS\CTS\CDE21ID001\Day1\FirstWinSolution\FirstWinApplication\obj\Debug\netcoreapp3.1\FirstWinApplication.pdb
+D:\Data\d drive\Corp\RPS\CTS\CDE21ID001\Day1\FirstWinSolution\FirstWinApplication\obj\Debug\netcoreapp3.1\FirstWinApplication.genruntimeconfig.cache
+D:\Data\d drive\Corp\RPS\CTS\CDE21ID001\Day1\FirstWinSolution\FirstWinApplication\obj\Debug\netcoreapp3.1\FirstWinApplication.frmAddCustomer.resources

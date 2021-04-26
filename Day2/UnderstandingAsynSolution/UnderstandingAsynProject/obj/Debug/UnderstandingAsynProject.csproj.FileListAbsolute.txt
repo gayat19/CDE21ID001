@@ -1,0 +1,7 @@
+D:\Data\d drive\Corp\RPS\CTS\CDE21ID001\Day2\UnderstandingAsynSolution\UnderstandingAsynProject\bin\Debug\UnderstandingAsynProject.exe.config
+D:\Data\d drive\Corp\RPS\CTS\CDE21ID001\Day2\UnderstandingAsynSolution\UnderstandingAsynProject\bin\Debug\UnderstandingAsynProject.exe
+D:\Data\d drive\Corp\RPS\CTS\CDE21ID001\Day2\UnderstandingAsynSolution\UnderstandingAsynProject\bin\Debug\UnderstandingAsynProject.pdb
+D:\Data\d drive\Corp\RPS\CTS\CDE21ID001\Day2\UnderstandingAsynSolution\UnderstandingAsynProject\obj\Debug\UnderstandingAsynProject.csprojAssemblyReference.cache
+D:\Data\d drive\Corp\RPS\CTS\CDE21ID001\Day2\UnderstandingAsynSolution\UnderstandingAsynProject\obj\Debug\UnderstandingAsynProject.csproj.CoreCompileInputs.cache
+D:\Data\d drive\Corp\RPS\CTS\CDE21ID001\Day2\UnderstandingAsynSolution\UnderstandingAsynProject\obj\Debug\UnderstandingAsynProject.exe
+D:\Data\d drive\Corp\RPS\CTS\CDE21ID001\Day2\UnderstandingAsynSolution\UnderstandingAsynProject\obj\Debug\UnderstandingAsynProject.pdb

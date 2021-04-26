@@ -1,0 +1,13 @@
+D:\Data\d drive\Corp\RPS\CTS\CDE21ID001\Day1\AssesmentQuestionSolution\AssesmentQuestionProject\obj\Debug\netcoreapp3.1\AssesmentQuestionProject.csprojAssemblyReference.cache
+D:\Data\d drive\Corp\RPS\CTS\CDE21ID001\Day1\AssesmentQuestionSolution\AssesmentQuestionProject\obj\Debug\netcoreapp3.1\AssesmentQuestionProject.AssemblyInfoInputs.cache
+D:\Data\d drive\Corp\RPS\CTS\CDE21ID001\Day1\AssesmentQuestionSolution\AssesmentQuestionProject\obj\Debug\netcoreapp3.1\AssesmentQuestionProject.AssemblyInfo.cs
+D:\Data\d drive\Corp\RPS\CTS\CDE21ID001\Day1\AssesmentQuestionSolution\AssesmentQuestionProject\obj\Debug\netcoreapp3.1\AssesmentQuestionProject.csproj.CoreCompileInputs.cache
+D:\Data\d drive\Corp\RPS\CTS\CDE21ID001\Day1\AssesmentQuestionSolution\AssesmentQuestionProject\bin\Debug\netcoreapp3.1\AssesmentQuestionProject.exe
+D:\Data\d drive\Corp\RPS\CTS\CDE21ID001\Day1\AssesmentQuestionSolution\AssesmentQuestionProject\bin\Debug\netcoreapp3.1\AssesmentQuestionProject.deps.json
+D:\Data\d drive\Corp\RPS\CTS\CDE21ID001\Day1\AssesmentQuestionSolution\AssesmentQuestionProject\bin\Debug\netcoreapp3.1\AssesmentQuestionProject.runtimeconfig.json
+D:\Data\d drive\Corp\RPS\CTS\CDE21ID001\Day1\AssesmentQuestionSolution\AssesmentQuestionProject\bin\Debug\netcoreapp3.1\AssesmentQuestionProject.runtimeconfig.dev.json
+D:\Data\d drive\Corp\RPS\CTS\CDE21ID001\Day1\AssesmentQuestionSolution\AssesmentQuestionProject\bin\Debug\netcoreapp3.1\AssesmentQuestionProject.dll
+D:\Data\d drive\Corp\RPS\CTS\CDE21ID001\Day1\AssesmentQuestionSolution\AssesmentQuestionProject\bin\Debug\netcoreapp3.1\AssesmentQuestionProject.pdb
+D:\Data\d drive\Corp\RPS\CTS\CDE21ID001\Day1\AssesmentQuestionSolution\AssesmentQuestionProject\obj\Debug\netcoreapp3.1\AssesmentQuestionProject.dll
+D:\Data\d drive\Corp\RPS\CTS\CDE21ID001\Day1\AssesmentQuestionSolution\AssesmentQuestionProject\obj\Debug\netcoreapp3.1\AssesmentQuestionProject.pdb
+D:\Data\d drive\Corp\RPS\CTS\CDE21ID001\Day1\AssesmentQuestionSolution\AssesmentQuestionProject\obj\Debug\netcoreapp3.1\AssesmentQuestionProject.genruntimeconfig.cache
