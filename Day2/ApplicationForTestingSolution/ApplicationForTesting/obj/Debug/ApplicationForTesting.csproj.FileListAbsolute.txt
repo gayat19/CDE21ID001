@@ -1,0 +1,7 @@
+D:\Data\d drive\Corp\RPS\CTS\CDE21ID001\Day2\ApplicationForTestingSolution\ApplicationForTesting\bin\Debug\ApplicationForTesting.exe.config
+D:\Data\d drive\Corp\RPS\CTS\CDE21ID001\Day2\ApplicationForTestingSolution\ApplicationForTesting\bin\Debug\ApplicationForTesting.exe
+D:\Data\d drive\Corp\RPS\CTS\CDE21ID001\Day2\ApplicationForTestingSolution\ApplicationForTesting\bin\Debug\ApplicationForTesting.pdb
+D:\Data\d drive\Corp\RPS\CTS\CDE21ID001\Day2\ApplicationForTestingSolution\ApplicationForTesting\obj\Debug\ApplicationForTesting.csprojAssemblyReference.cache
+D:\Data\d drive\Corp\RPS\CTS\CDE21ID001\Day2\ApplicationForTestingSolution\ApplicationForTesting\obj\Debug\ApplicationForTesting.csproj.CoreCompileInputs.cache
+D:\Data\d drive\Corp\RPS\CTS\CDE21ID001\Day2\ApplicationForTestingSolution\ApplicationForTesting\obj\Debug\ApplicationForTesting.exe
+D:\Data\d drive\Corp\RPS\CTS\CDE21ID001\Day2\ApplicationForTestingSolution\ApplicationForTesting\obj\Debug\ApplicationForTesting.pdb

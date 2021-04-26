@@ -1,0 +1,12 @@
+D:\Data\d drive\Corp\RPS\CTS\CDE21ID001\Day2\ApplicationForTestingSolution\nUnutinTestingApplication\bin\Debug\nUnutinTestingApplication.dll
+D:\Data\d drive\Corp\RPS\CTS\CDE21ID001\Day2\ApplicationForTestingSolution\nUnutinTestingApplication\bin\Debug\nUnutinTestingApplication.pdb
+D:\Data\d drive\Corp\RPS\CTS\CDE21ID001\Day2\ApplicationForTestingSolution\nUnutinTestingApplication\bin\Debug\ApplicationForTesting.exe
+D:\Data\d drive\Corp\RPS\CTS\CDE21ID001\Day2\ApplicationForTestingSolution\nUnutinTestingApplication\bin\Debug\nunit.framework.dll
+D:\Data\d drive\Corp\RPS\CTS\CDE21ID001\Day2\ApplicationForTestingSolution\nUnutinTestingApplication\bin\Debug\ApplicationForTesting.pdb
+D:\Data\d drive\Corp\RPS\CTS\CDE21ID001\Day2\ApplicationForTestingSolution\nUnutinTestingApplication\bin\Debug\ApplicationForTesting.exe.config
+D:\Data\d drive\Corp\RPS\CTS\CDE21ID001\Day2\ApplicationForTestingSolution\nUnutinTestingApplication\bin\Debug\nunit.framework.xml
+D:\Data\d drive\Corp\RPS\CTS\CDE21ID001\Day2\ApplicationForTestingSolution\nUnutinTestingApplication\obj\Debug\nUnutinTestingApplication.csprojAssemblyReference.cache
+D:\Data\d drive\Corp\RPS\CTS\CDE21ID001\Day2\ApplicationForTestingSolution\nUnutinTestingApplication\obj\Debug\nUnutinTestingApplication.csproj.CoreCompileInputs.cache
+D:\Data\d drive\Corp\RPS\CTS\CDE21ID001\Day2\ApplicationForTestingSolution\nUnutinTestingApplication\obj\Debug\nUnutinTestingApplication.csproj.CopyComplete
+D:\Data\d drive\Corp\RPS\CTS\CDE21ID001\Day2\ApplicationForTestingSolution\nUnutinTestingApplication\obj\Debug\nUnutinTestingApplication.dll
+D:\Data\d drive\Corp\RPS\CTS\CDE21ID001\Day2\ApplicationForTestingSolution\nUnutinTestingApplication\obj\Debug\nUnutinTestingApplication.pdb
