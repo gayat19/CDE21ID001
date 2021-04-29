@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -24,7 +25,11 @@ namespace UnderstandingMVCProject
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddSingleton<ICustomerRepo<Customer>,CustomerRepo>();
+            
+            services.AddScoped<ICustomerRepo<Customer>,CustomerRepo>();
+            //options injected to context
+            //context is ready for injection as well
+            services.AddDbContext<CustomerContext>(opts => opts.UseSqlServer(Configuration["ConnectionStrings:CustomerCon"]));
             services.AddControllersWithViews();
       
         }

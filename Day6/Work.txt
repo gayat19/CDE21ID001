@@ -1,0 +1,14 @@
+microsoft.entityframeworkcore\5.0.5\
+microsoft.entityframeworkcore.sqlserver\5.0.5\
+microsoft.entityframeworkcore.tools\5.0.5\
+
+Commands
+Tools->NuGet Pagake Manager->Package Manager Console
+
+Add-Migration <name>
+update-database
+
+LifetimeService
+Singleton - only one for all request throughtout the application
+Scoped - one per request throughout the application
+Transient-for each req for every controller

@@ -11,5 +11,7 @@ namespace UnderstandingMVCProject.Services
         T GetById(int id);
         IEnumerable<T> GetAll();
 
+        T EditCustomer(int id,T t);
+
     }
 }

@@ -16,7 +16,7 @@ namespace UnderstandingMVCProject.Controllers
         private ICustomerRepo<Customer> _customerRepo;
         private ILogger<CustomerController> _logger;
 
-        public CustomerController(ICustomerRepo<Customer> customerRepo,ILogger<CustomerController> logger )
+        public CustomerController(ICustomerRepo<Customer> customerRepo, ILogger<CustomerController> logger)
         {
             _customerRepo = customerRepo;
             _logger = logger;
@@ -55,13 +55,15 @@ namespace UnderstandingMVCProject.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Create(Customer customer)
         {
+         
             try
             {
                 _customerRepo.Add(customer);
                 return RedirectToAction(nameof(Index));
             }
-            catch
+            catch(Exception e)
             {
+                _logger.LogError(e.Message);
                 return View();
             }
         }
@@ -69,20 +71,23 @@ namespace UnderstandingMVCProject.Controllers
         // GET: CustomerController/Edit/5
         public ActionResult Edit(int id)
         {
-            return View();
+            var cust = _customerRepo.GetById(id);
+            return View(cust);
         }
 
         // POST: CustomerController/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
+        public ActionResult Edit(int id, Customer customer)
         {
             try
             {
+                var cust = _customerRepo.EditCustomer(id, customer);
                 return RedirectToAction(nameof(Index));
             }
-            catch
+            catch(Exception e)
             {
+                _logger.LogError(e.Message);
                 return View();
             }
         }

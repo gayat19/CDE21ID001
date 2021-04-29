@@ -9,14 +9,40 @@ namespace UnderstandingMVCProject.Services
     public class CustomerRepo : ICustomerRepo<Customer>
     {
         List<Customer> customers = new List<Customer>();
+        private CustomerContext _customerContext;
 
+        //{
+        //    new Customer(){Id=101,Name="Ramu",Phone="1234567890"},
+        //    new Customer(){Id=102,Name="Somu",Phone="6789012345"}
+        //};
+        public CustomerRepo(CustomerContext customerContext)
+        {
+            _customerContext = customerContext;
+        }
         public void Add(Customer customer)
         {
-            customers.Add(customer);
+            //customers.Add(customer);
+            _customerContext.Customers.Add(customer);
+            _customerContext.SaveChanges();
+        }
+
+        public Customer EditCustomer(int id,Customer customer)
+        {
+           int myCustomer = customers.FindIndex(c => c.Id == id);
+            if(myCustomer != -1)
+            {
+                customers[myCustomer] = customer;
+                return customer;
+            }
+            return null;
         }
 
         public IEnumerable<Customer> GetAll()
         {
+            //if (customers.Count == 0)
+            //    throw new NoItemsExecptiion();
+            //return customers;
+            customers = _customerContext.Customers.ToList();
             if (customers.Count == 0)
                 throw new NoItemsExecptiion();
             return customers;
@@ -24,7 +50,7 @@ namespace UnderstandingMVCProject.Services
 
         public Customer GetById(int id)
         {
-            Customer customer = customers.FirstOrDefault(c => c.Id == id);
+            Customer customer = _customerContext.Customers.FirstOrDefault(c => c.Id == id);
             return customer;
         }
     }
