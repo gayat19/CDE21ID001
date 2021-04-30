@@ -8,6 +8,10 @@ namespace UnderstandingMVCProject.Models
 {
     public class CustomerContext :DbContext
     {
+        public CustomerContext()
+        {
+
+        }
         public CustomerContext(DbContextOptions opt):base(opt)
         {
 
@@ -19,7 +23,7 @@ namespace UnderstandingMVCProject.Models
                 new Customer() { Id = 102, Name = "Somu", Phone = "6789012345" }
                 );
         }
-        public DbSet<Customer> Customers { get; set; }
+        public virtual DbSet<Customer> Customers { get; set; }
         public DbSet<Bill> Bills { get; set; }
     }
 }

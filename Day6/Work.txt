@@ -9,6 +9,6 @@ Add-Migration <name>
 update-database
 
 LifetimeService
-Singleton - only one for all request throughtout the application
+Singleton - only one for all request throughtout the applicationd
 Scoped - one per request throughout the application
 Transient-for each req for every controller
