@@ -1,0 +1,9 @@
+2021-05-03 17:38:07,873 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-05-03 17:38:07,896 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-05-03 17:38:07,899 [1] INFO Microsoft.Hosting.Lifetime - Content root path: D:\Data\d drive\Corp\RPS\CTS\CDE21ID001\Day5\UnderstandingMVCSolution\UnderstandingMVCProject
+2021-05-03 17:38:21,109 [4] INFO UnderstandingMVCProject.Controllers.CustomerController - Logger initiated
+2021-05-03 17:39:18,611 [18] INFO UnderstandingMVCProject.Controllers.CustomerController - Logger initiated
+2021-05-03 17:39:23,883 [18] INFO UnderstandingMVCProject.Controllers.CustomerController - Logger initiated
+2021-05-03 17:39:24,193 [22] INFO UnderstandingMVCProject.Controllers.CustomerController - Logger initiated
+2021-05-03 17:40:02,819 [24] INFO UnderstandingMVCProject.Controllers.CustomerController - Logger initiated
+2021-05-03 17:40:05,798 [25] INFO UnderstandingMVCProject.Controllers.CustomerController - Logger initiated

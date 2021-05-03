@@ -8,8 +8,12 @@ namespace UnderstandingMVCProject.Services
 {
     public class CustomerRepo : ICustomerRepo<Customer>
     {
+        public CustomerRepo()
+        {
+
+        }
         List<Customer> customers = new List<Customer>();
-        private CustomerContext _customerContext;
+        protected CustomerContext _customerContext;
 
         //{
         //    new Customer(){Id=101,Name="Ramu",Phone="1234567890"},
@@ -48,7 +52,29 @@ namespace UnderstandingMVCProject.Services
             return customers;
         }
 
-        public Customer GetById(int id)
+        public virtual Customer GetById(int id)
+        {
+            Customer customer = _customerContext.Customers.FirstOrDefault(c => c.Id == id);
+            return customer;
+        }
+
+        //public bool Register(Customer t)
+        //{
+        //    throw new NotImplementedException();
+        //}
+
+        //public bool Login(Customer t)
+        //{
+        //    throw new NotImplementedException();
+        //}
+    }
+    public class BankCustomerRepo:CustomerRepo 
+    {
+        public BankCustomerRepo(CustomerContext customerContext):base(customerContext)
+        {
+
+        }
+        public override Customer GetById(int id)
         {
             Customer customer = _customerContext.Customers.FirstOrDefault(c => c.Id == id);
             return customer;

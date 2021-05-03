@@ -20,6 +20,7 @@ namespace UnderstandingMVCProject.Controllers
         {
             _customerRepo = customerRepo;
             _logger = logger;
+            _logger.LogInformation("Logger initiated");
         }
         // GET: CustomerController
         public ActionResult Index()

@@ -1,0 +1,10 @@
+S- Single responsibility
+  Every Class Should do operation pertaining to one entity
+o- Open Closed
+   Open for extension closed for modification
+l- Liskov substitution
+    Substitute Child instead of parent object should not affect the consuming class
+i- Interface Segregation
+   Create interfaces with methods strictly restricted to domain
+d- Dependency Inversion
+   interface instead of class

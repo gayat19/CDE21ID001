@@ -15,4 +15,8 @@ namespace UnderstandingMVCProject.Models
 
         public List<Bill> Bills { get; set; }
     }
+    public class BankCustomer : Customer
+    {
+        public string AcccountNumber { get; set; }
+    }
 }
