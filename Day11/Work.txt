@@ -1,0 +1,37 @@
+to create a local repo 
+git init
+
+To stage a file for commit
+git add File1
+
+To commit the file
+git commit File1.txt -m "First Commit"
+
+To stage all teh files
+git add -A
+
+To commit all that is staged
+git commit -a -m "VisualStudio Project Init"
+
+To vie all the commits 
+git log
+
+to view untacked and unstaged files
+git status
+
+
+to connect to a remote repo
+git remote add origin https://github.com/gayat19/LeanGitMay7.git
+
+To know the remote repo connection
+git remote -v
+
+
+To merge branches
+git branch -M main
+
+To push to the remote repo
+git push -u origin main
+
+To get updates from the remote repo to local repo
+git pull origin main
