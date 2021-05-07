@@ -1,0 +1,23 @@
+<h1>
+
+    Employee componenet
+
+</h1>
+<!-- Interpollation -->
+<div>
+    Name : {{employeeName}}
+</div>
+<!-- Property Binding -->
+<div>
+    <input type="text" [value]="employeeName">
+</div>
+<!-- Event Binding -->
+<div>
+    <input type="text" [value]="employeeName" 
+    #ename
+     (change)="changeText(ename)">
+</div>
+<!-- 2-way Binding -->
+<div>
+    <input type="text" [(ngModel)]="employeeName">
+</div>

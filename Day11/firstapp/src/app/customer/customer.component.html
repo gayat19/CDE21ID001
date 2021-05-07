@@ -1,0 +1,22 @@
+
+
+<div>
+    id: <input type="text" [(ngModel)]="customer.id">
+    <br/>
+    name: <input type="text" [(ngModel)]="customer.name">
+    <br/>
+    age: <input type="text" [(ngModel)]="customer.age">
+    <br/>
+    <button (click)="addCustomer()">Add</button>
+</div>
+
+<hr>
+<div *ngFor="let customer of customers">
+    Customer Id :{{customer.id}}
+    <br>
+    Customer Name:{{customer.name}}
+    <br>
+    Customer age :{{customer.age}}
+    <br>
+    <img [src]="customer.pic" height="100" width="100">
+</div>

@@ -35,3 +35,41 @@ git push -u origin main
 
 To get updates from the remote repo to local repo
 git pull origin main
+-------------------------------------------------------------------------
+https://nodejs.org/en/
+Download and install node
+
+in the cmd 
+node --version
+
+
+Install angular
+npm i @angular/cli -g
+
+to check version of angular
+ng --version
+
+To create a new application 
+ng new firstapp
+
+
+If err during new app creation
+npm chache clean --force
+npm uninstall -g @angular/cli
+npm install -g @angular/cli
+
+navigate inside the new app
+cd firstapp
+
+start the server
+ng serve
+
+
+
+
+
+
+
+
+
+
