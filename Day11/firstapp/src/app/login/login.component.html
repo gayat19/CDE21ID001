@@ -1,0 +1,14 @@
+<div class="alert alert-info">
+<label class="form-control">Username</label>
+<input type="text" class="form-control" [(ngModel)]="user.username" #username=ngModel required>
+<span class="alert alert-danger" *ngIf="username.touched && username.errors">Username cannot be empty</span>
+<label class="form-control">Password</label>
+<input type="password" class="form-control" [(ngModel)]="user.password" #password=ngModel required>
+<span class="alert alert-danger" *ngIf="password.touched && password.errors">Password cannot be empty</span>
+<button class="btn btn-success" (click)="checkLogin()">Login</button>
+<button class="btn btn-danger" (click)="reset()">Reset</button>
+</div>
+<p [class]="className" *ngIf="message">
+    {{message}}
+</p>
+

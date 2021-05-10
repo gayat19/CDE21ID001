@@ -18,5 +18,11 @@
     <br>
     Customer age :{{customer.age}}
     <br>
-    <img [src]="customer.pic" height="100" width="100">
+    <img [src]="customer.pic" height="100" width="100" alt="No Pic">
 </div>
+<div *ngIf="customers.length==0; else countShow">
+    No Customers yet!!!!
+</div>
+<ng-template #countShow>
+    we have   {{customers.length}} customers
+</ng-template>

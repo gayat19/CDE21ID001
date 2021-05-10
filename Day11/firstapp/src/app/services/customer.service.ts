@@ -5,10 +5,11 @@ export class CustomerService{
     customers:Customer[];
 
     constructor() {
-    this.customers = [
-        new Customer(101,"Ramu",23,"assets/pic1.jfif"),
-        new Customer(102,"Somu",25,"assets/pic2.jfif")
-    ];
+    // this.customers = [
+    //     new Customer(101,"Ramu",23,"assets/pic1.jfif"),
+    //     new Customer(102,"Somu",25,"assets/pic2.jfif")
+    // ];
+    this.customers =[];
     }
 
     addCustomer(customer){

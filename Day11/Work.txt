@@ -57,6 +57,8 @@ If err during new app creation
 npm chache clean --force
 npm uninstall -g @angular/cli
 npm install -g @angular/cli
+or
+npm install -g @angular/cli@^8.0.0
 
 navigate inside the new app
 cd firstapp
@@ -64,6 +66,26 @@ cd firstapp
 start the server
 ng serve
 
+
+to generate a new component
+ng generate componenet employee
+ng g c employee
+
+FE - MVC
+BL - Service
+Data - Model
+
+Create a model
+Customer
+  id
+  name
+  age
+  pic
+Customer in the component
+
+Service
+  Customer array
+    Crud
 
 
 
