@@ -16,13 +16,13 @@ namespace FirstAPIApplication.Models
         {
 
         }
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-            modelBuilder.Entity<User>().HasData(
-                new User() { UserId="Ramu",Password="1234",Role="Admin"},
-                new User() { UserId = "Somu", Password = "4321", Role = "User" }
-                );
-        }
+        //protected override void OnModelCreating(ModelBuilder modelBuilder)
+        //{
+        //    modelBuilder.Entity<User>().HasData(
+        //        new User() { UserId="Ramu",Password="1234",Role="Admin"},
+        //        new User() { UserId = "Somu", Password = "4321", Role = "User" }
+        //        );
+        //}
         public DbSet<User> Users { get; set; }
     }
 }
