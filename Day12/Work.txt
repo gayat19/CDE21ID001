@@ -1,0 +1,11 @@
+ngIf
+Routing
+  Place Holder - component
+  Defining the routes
+  navigation
+    HTML - routerLink
+    TS -navigate
+  Parameter in path
+  
+
+Validation
