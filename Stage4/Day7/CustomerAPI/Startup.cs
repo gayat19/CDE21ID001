@@ -18,6 +18,7 @@ namespace CustomerAPI
 {
     public class Startup
     {
+        readonly string MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -28,7 +29,17 @@ namespace CustomerAPI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddCors(options =>
+            {
+                options.AddDefaultPolicy(builder =>
+                {
+                    builder.WithOrigins("http://localhost:11754")
+                            .AllowAnyMethod()
+                            .AllowAnyHeader();
+                });
+            });
             services.AddControllers();
+            
             services.AddDbContext<CustomerContext>(opts => opts.UseSqlServer(Configuration["ConnectionString:conn"]));
             services.AddScoped<IRepo<Customer>, CustomerRepo>();
         }
@@ -40,10 +51,11 @@ namespace CustomerAPI
             {
                 app.UseDeveloperExceptionPage();
             }
-
+            app.UseStaticFiles();
             app.UseHttpsRedirection();
 
             app.UseRouting();
+            app.UseCors();
 
             app.UseAuthorization();
 

@@ -1,5 +1,6 @@
 ﻿using CustomerAPI.Models;
 using CustomerAPI.Services;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -11,6 +12,7 @@ using System.Threading.Tasks;
 namespace CustomerAPI.Controllers
 {
     [Route("api/[controller]")]
+    [EnableCors]
     [ApiController]
     public class CustomerController : ControllerBase
     {

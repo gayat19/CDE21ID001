@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="./lib/jquery/dist/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $.ajax({
+                type: "GET",
+                url:"http://localhost:46578/api/Customer",
+                contentType:"application/json; charset=utf-8",
+                dataType:"json",
+                success: function (data) {
+                    console.log(data)
+                },
+                
+            })
+        })
+    </script>
+</head>
+<body>
+    <h1>Check</h1>
+</body>
+</html>
