@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "Ya67DZ5VrFqIexKSq1KbU8SUfOvngS6rs3MuLtBwWjRM8Je6EIxz0aa+NN9Y6C+y6/Q4YpnvV8o4h8l5+MdVQg==",
+  "success": true,
+  "projectFilePath": "D:\\Data\\d drive\\Corp\\RPS\\CTS\\CDE21ID001\\Stage4\\Day8\\KafkaConsumerApp\\KafkaConsumerApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gayat\\.nuget\\packages\\confluent.kafka\\1.7.0\\confluent.kafka.1.7.0.nupkg.sha512",
+    "C:\\Users\\gayat\\.nuget\\packages\\librdkafka.redist\\1.7.0\\librdkafka.redist.1.7.0.nupkg.sha512",
+    "C:\\Users\\gayat\\.nuget\\packages\\system.memory\\4.5.0\\system.memory.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

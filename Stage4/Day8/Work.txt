@@ -1,0 +1,14 @@
+1)Install Kafka
+2) start zookeper
+bin\windows\zookeeper-server-start.bat config\zookeper.properties
+3)start kafka
+.\bin\windows\kafka-server-start.bat .\config\server.propertie
+4) check
+    a. create topic
+kafka-topics.bat --create --zookeeper localhost:2181 -replication-factor 1 --partitions 1 --topic gayathrimsg_exchange
+    b. create producre
+	kafka-console-producer.bat --broker-list localhost:9092 --topic gayathrimsg_exchange
+    c. create consumer
+	kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic gayathrimsg_exchang
+5) Creat a producer app
+6) Create consumer app
